@@ -1,0 +1,145 @@
+[1mdiff --git a/index.html b/index.html[m
+[1mindex 61ff273..e69de29 100644[m
+[1m--- a/index.html[m
+[1m+++ b/index.html[m
+[36m@@ -1,140 +0,0 @@[m
+[31m-<!DOCTYPE html>[m
+[31m-<html lang="zh-TW">[m
+[31m-<head>[m
+[31m-    <meta charset="UTF-8">[m
+[31m-    <meta name="viewport" content="width=device-width, initial-scale=1.0">[m
+[31m-    <meta name="description" content="Archie 的個人網站 - 展示我的技能與專案作品">[m
+[31m-    <meta name="keywords" content="Archie, 個人網站, 作品集, GitHub Pages">[m
+[31m-    <meta name="author" content="Archie">[m
+[31m-    <title>Archie 的個人網站</title>[m
+[31m-    [m
+[31m-    <!-- Font Awesome -->[m
+[31m-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">[m
+[31m-    [m
+[31m-    <!-- 自訂 CSS -->[m
+[31m-    <link rel="stylesheet" href="css/style.css">[m
+[31m-</head>[m
+[31m-<body>[m
+[31m-    <!-- 導航列 -->[m
+[31m-    <nav>[m
+[31m-        <div class="container">[m
+[31m-            <a href="index.html" class="logo">🚀 Archie</a>[m
+[31m-            <ul>[m
+[31m-                <li><a href="index.html">首頁</a></li>[m
+[31m-                <li><a href="about.html">關於我</a></li>[m
+[31m-                <li><a href="projects.html">專案作品</a></li>[m
+[31m-                <li><a href="#contact">聯絡我</a></li>[m
+[31m-            </ul>[m
+[31m-        </div>[m
+[31m-    </nav>[m
+[31m-[m
+[31m-    <!-- 主要內容 -->[m
+[31m-    <div class="container">[m
+[31m-        <!-- 標題區 -->[m
+[31m-        <header>[m
+[31m-            <h1>👨‍💻 歡迎來到我的網站</h1>[m
+[31m-            <p>Hi！我是 Archie，一位熱愛學習與探索的開發者</p>[m
+[31m-        </header>[m
+[31m-        [m
+[31m-        <!-- 內容區 -->[m
+[31m-        <div class="content">[m
+[31m-            <!-- 關於我 -->[m
+[31m-            <section id="about">[m
+[31m-                <h2>📖 關於我</h2>[m
+[31m-                <p>[m
+[31m-                    你好！我是 Archie，一位充滿熱情的開發者。[m
+[31m-                    我喜歡學習新技術、解決問題，並創造有價值的專案。[m
+[31m-                </p>[m
+[31m-                <p>[m
+[31m-                    這個網站是我的個人展示空間，記錄我的學習歷程和專案作品。[m
+[31m-                    歡迎探索我的網站，了解更多關於我的資訊！[m
+[31m-                </p>[m
+[31m-                <a href="about.html" class="btn">了解更多 →</a>[m
+[31m-            </section>[m
+[31m-            [m
+[31m-            <!-- 技能 -->[m
+[31m-            <section id="skills">[m
+[31m-                <h2>🚀 我的技能</h2>[m
+[31m-                <div class="skills">[m
+[31m-                    <div class="skill-card">[m
+[31m-                        <i class="fab fa-html5"></i>[m
+[31m-                        <h3>HTML5</h3>[m
+[31m-                    </div>[m
+[31m-                    <div class="skill-card">[m
+[31m-                        <i class="fab fa-css3-alt"></i>[m
+[31m-                        <h3>CSS3</h3>[m
+[31m-                    </div>[m
+[31m-                    <div class="skill-card">[m
+[31m-                        <i class="fab fa-js"></i>[m
+[31m-                        <h3>JavaScript</h3>[m
+[31m-                    </div>[m
+[31m-                    <div class="skill-card">[m
+[31m-                        <i class="fab fa-git-alt"></i>[m
+[31m-                        <h3>Git</h3>[m
+[31m-                    </div>[m
+[31m-                    <div class="skill-card">[m
+[31m-                        <i class="fab fa-github"></i>[m
+[31m-                        <h3>GitHub</h3>[m
+[31m-                    </div>[m
+[31m-                    <div class="skill-card">[m
+[31m-                        <i class="fas fa-code"></i>[m
+[31m-                        <h3>VS Code</h3>[m
+[31m-                    </div>[m
+[31m-                </div>[m
+[31m-            </section>[m
+[31m-            [m
+[31m-            <!-- 精選專案 -->[m
+[31m-            <section id="featured-projects">[m
+[31m-                <h2>💼 精選專案</h2>[m
+[31m-                <div class="projects">[m
+[31m-                    <div class="project-card">[m
+[31m-                        <h3>🌐 個人網站</h3>[m
+[31m-                        <p>使用 HTML、CSS、JavaScript 建立的響應式個人網站，部署在 GitHub Pages 上。</p>[m
+[31m-                        <div class="tags">[m
+[31m-                            <span class="tag">HTML</span>[m
+[31m-                            <span class="tag">CSS</span>[m
+[31m-                            <span class="tag">JavaScript</span>[m
+[31m-                        </div>[m
+[31m-                    </div>[m
+[31m-                    <div class="project-card">[m
+[31m-                        <h3>📚 學習筆記系統</h3>[m
+[31m-                        <p>記錄程式學習歷程的筆記系統，包含各種技術文章和心得分享。</p>[m
+[31m-                        <div class="tags">[m
+[31m-                            <span class="tag">Markdown</span>[m
+[31m-                            <span class="tag">Git</span>[m
+[31m-                        </div>[m
+[31m-                    </div>[m
+[31m-                </div>[m
+[31m-                <div style="text-align: center; margin-top: 30px;">[m
+[31m-                    <a href="projects.html" class="btn">查看所有專案 →</a>[m
+[31m-                </div>[m
+[31m-            </section>[m
+[31m-            [m
+[31m-            <!-- 聯絡方式 -->[m
+[31m-            <section id="contact">[m
+[31m-                <h2>📧 聯絡我</h2>[m
+[31m-                <p>如果你想與我聯繫，歡迎透過以下方式：</p>[m
+[31m-                <div class="contact-links">[m
+[31m-                    <a href="https://github.com/Archie1205" target="_blank">[m
+[31m-                        <i class="fab fa-github"></i> GitHub[m
+[31m-                    </a>[m
+[31m-                    <a href="mailto:your.email@example.com">[m
+[31m-                        <i class="fas fa-envelope"></i> Email[m
+[31m-                    </a>[m
+[31m-                    <a href="https://www.linkedin.com/in/yourprofile" target="_blank">[m
+[31m-                        <i class="fab fa-linkedin"></i> LinkedIn[m
+[31m-                    </a>[m
+[31m-                </div>[m
+[31m-            </section>[m
+[31m-        </div>[m
+[31m-        [m
+[31m-        <!-- 頁尾 -->[m
+[31m-        <footer>[m
+[31m-            <p>&copy; 2024 Archie. Made with ❤️ using GitHub Pages</p>[m
+[31m-        </footer>[m
+[31m-    </div>[m
+[31m-[m
+[31m-    <!-- 自訂 JavaScript -->[m
+[31m-    <script src="js/script.js"></script>[m
+[31m-</body>[m
+[31m-</html>[m
